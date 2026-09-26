@@ -56,7 +56,7 @@ The PLL architecture consists of a Phase Frequency Detector (PFD), a rail-switch
 | **Locked Control Voltage** | $V_{CTRL}$ | $640 - 650$ | $\text{mV}$ |
 | **Static Phase Offset** | $t_{\phi}$ | **$-479.2$** | **$\text{ps}$** |
 | **Cold-Start Lock Time ($95\%$)** | $t_{lock}$ | $\approx 3.5$ | $\mu\text{s}$ |
-| **Peak Transient Overshoot** | $V_{peak}$ | $< 8.0$ | $\%$ |
+| **Peak Transient Overshoot** | $V_{peak}$ | $< 8.0$ | % |
 | **$V_{CTRL}$ Ripple Voltage** | $V_{ripple\_pp}$ | $< 5.0$ | $\text{mV}_{p-p}$ |
 
 ---
