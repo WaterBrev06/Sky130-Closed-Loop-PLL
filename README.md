@@ -67,7 +67,8 @@ The PLL architecture consists of a Phase Frequency Detector (PFD), a rail-switch
 
 Under locked condition ($t \ge 6.0\ \mu\text{s}$), `vco_out` rising edges track `ref_clk` with zero visible static phase error.
 
-> *Figure 1: Overlaid `ref_clk` (red) and `vco_out` (blue) clock edges at $t = 6.0\ \mu\text{s}$ demonstrating $-479.2\text{ ps}$ phase offset.*
+![alt text](https://github.com/WaterBrev06/Sky130-Closed-Loop-PLL/blob/main/phasealignment.jpg "Phase Alignment")
+> Figure 1: Overlaid `ref_clk` (red) and `vco_out` (blue) clock edges at $t = 6.0\ \mu\text{s}$ demonstrating $-479.2\text{ ps}$ phase offset.
 
 ---
 
@@ -76,14 +77,14 @@ Under locked condition ($t \ge 6.0\ \mu\text{s}$), `vco_out` rising edges track 
 Simulation of cold-start ($V_{CTRL} = 0\text{ V}$) and dynamic acquisition shows clean, monotonic settling to $650\text{ mV}$ within $3.5\ \mu\text{s}$ without cycle slipping or sustained ringing.
 
 ![alt text](https://github.com/WaterBrev06/Sky130-Closed-Loop-PLL/blob/main/vctrlvtime.jpg "Transient Response")
-> *Figure 2: Transient response of $V_{CTRL}$ over $8.0\ \mu\text{s}$ showing stable loop convergence.*
+> Figure 2: Transient response of $V_{CTRL}$ over $8.0\ \mu\text{s}$ showing stable loop convergence.
 ---
-*Figure 2: Transient response of $V_{CTRL}$ over $8.0\ \mu\text{s}$ showing stable loop convergence.*
+
 ### 4.3 Full Output Clock Oscillations
 
 Detailed view of the continuous output swing of `vco_out` operating with full rail-to-rail ($0\text{ V} \rightarrow 1.8\text{ V}$) logic levels.
 
-> *Figure 3: Full $0\text{ V} - 1.8\text{ V}$ dynamic rail swing of `vco_out` output stage.*
+> Figure 3: Full $0\text{ V} - 1.8\text{ V}$ dynamic rail swing of `vco_out` output stage.
 
 ---
 
