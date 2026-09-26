@@ -84,6 +84,7 @@ Simulation of cold-start ($V_{CTRL} = 0\text{ V}$) and dynamic acquisition shows
 
 Detailed view of the continuous output swing of `vco_out` operating with full rail-to-rail ($0\text{ V} \rightarrow 1.8\text{ V}$) logic levels.
 
+![alt text](https://github.com/WaterBrev06/Sky130-Closed-Loop-PLL/blob/main/vco_outswing.jpg "VCO Output Swing")
 > Figure 3: Full $0\text{ V} - 1.8\text{ V}$ dynamic rail swing of `vco_out` output stage.
 
 ---
