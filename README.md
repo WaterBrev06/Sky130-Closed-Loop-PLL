@@ -77,7 +77,7 @@ Simulation of cold-start ($V_{CTRL} = 0\text{ V}$) and dynamic acquisition shows
 
 ![alt text](https://github.com/WaterBrev06/Sky130-Closed-Loop-PLL/blob/main/vctrlvtime.jpg "Transient Response")
 > *Figure 2: Transient response of $V_{CTRL}$ over $8.0\ \mu\text{s}$ showing stable loop convergence.*
-
+*Figure 2: Transient response of $V_{CTRL}$ over $8.0\ \mu\text{s}$ showing stable loop convergence.*
 ---
 
 ### 4.3 Full Output Clock Oscillations
